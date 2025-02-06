@@ -1,8 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import selfie from "../../photos/me.JPG";
 import "./AboutMe.css";
-import { Container } from "@mui/material";
 
 const AboutMe = () => {
   return (
