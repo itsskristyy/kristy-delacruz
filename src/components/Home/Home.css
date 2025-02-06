@@ -1,0 +1,60 @@
+.logo {
+  width: 100%;
+  height: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  justify-content: center; /* Horizontally centers the image */
+  align-items: center; /* Vertically centers the image */
+  height: 100vh;
+}
+
+.home {
+  display: flex;
+  justify-content: center; /* Horizontally centers the content */
+  align-items: center; /* Vertically centers the content */
+  height: 100vh;
+  flex-direction: column; /* Aligns items vertically */
+}
+
+body,
+html {
+  margin: 0;
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-image {
+  width: 100%; /* Adjust the width as needed */
+  height: 600px; /* Maintains the aspect ratio */
+  margin-bottom: -100px; /* Adds space between the image and buttons */
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  margin-bottom: 20px; /* Adds space between buttons */
+}
+
+.image-button img {
+  display: block;
+  border-radius: 10px; /* Rounds out the button */
+  height: auto; /* Maintains the aspect ratio */
+  width: 400px; /* Adjust the width as needed */
+  display: flex;
+  justify-content: center;
+}

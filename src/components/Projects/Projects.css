@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Bahiana&family=Bubblegum+Sans&family=Chicle&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+.projects-section .MuiContainer-root {
+  background-color: #ffe6f0; /* Light pink background */
+  border: 2px solid #ff99cc; /* Pink border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 16px; /* Padding inside the container */
+  margin-bottom: 16px; /* Space between containers */
+  width: 600px;
+  height: 100%;
+}
+
+.react-icon {
+  width: 25px;
+  height: 25px;
+}
+p {
+  font-size: 25px;
+  text-align: left;
+}
+
+ul {
+  font-size: 20px;
+  text-align: left;
+}
+
+.tictactoe {
+  width: 550px;
+  height: 600px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.projects-section h3 {
+  text-align: center;
+  font-size: 55px;
+  font-family: "Bubblegum Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}

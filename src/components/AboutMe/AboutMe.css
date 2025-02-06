@@ -1,0 +1,45 @@
+.image-text-container {
+  display: flex; /* Arrange the image and text in a row */
+  align-items: center; /* Align the image and text vertically */
+  gap: 16px; /* Add space between the image and text */
+  padding: 20px;
+}
+
+.image-text-container img {
+  width: 600px; /* Adjust the image width */
+  height: 900px; /* Maintain aspect ratio */
+  border: 10px solid pink; /* Pink border */
+  border-radius: 10px; /* Rounded corners */
+  object-fit: cover; /* Ensures the image maintains aspect ratio */
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column; /* Stack text elements vertically */
+  gap: 20px; /* Reduce space between text elements */
+}
+
+.text-container p,
+.text-container h4 {
+  width: 100%; /* Ensure they take the full width of the container */
+  max-width: calc(100% - 50px); /* Leave some space on the sides */
+  border: 5px solid pink;
+  border-radius: 10px;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #000000;
+  background-color: pink;
+  padding: 5px;
+  text-align: left;
+  margin: 0 auto; /* Center the elements */
+}
+
+.text-container h4 {
+  font-size: 35px;
+  text-align: center; /* Center align headings */
+}
+
+.text-container p {
+  font-size: 20px;
+  text-align: center; /* Center align paragraphs */
+}

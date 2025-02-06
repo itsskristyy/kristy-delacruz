@@ -1,0 +1,36 @@
+.socialmedia {
+  font-size: 80px;
+  text-align: center;
+  display: flex;
+  justify-content: center; /* Horizontally centers the image */
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.connect {
+  font-family: "Maname", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.a {
+  text-decoration: none; /* Removes the underline */
+  color: inherit;
+}
+.connect-title {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: center; /* Center everything */
+  gap: 15px; /* Add space between stars and text */
+  font-size: 50px;
+}
+
+.stars-icon {
+  padding-top: 40px;
+  width: 90px; /* Adjust size as needed */
+  height: auto;
+}
